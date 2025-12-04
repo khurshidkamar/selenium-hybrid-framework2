@@ -20,4 +20,11 @@
             <class name="com.selenium.api.tests.PostsApiTest"/>
         </classes>
     </test>
+
+    <test name="UI Tests">
+        <classes>
+            <class name="com.selenium.tests.GoogleTest"/>
+            <class name="com.selenium.tests.LoginTest"/>
+        </classes>
+    </test>
 </suite>
