@@ -1,0 +1,66 @@
+[INFO] 2025-12-05 02:38:29 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 2025-12-05 02:38:29 [main] GoogleTest - Initializing browser...
+[INFO] 2025-12-05 02:38:31 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 02:38:31 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 02:38:32 [main] GoogleTest - Browser initialized.
+[INFO] 2025-12-05 02:38:33 [main] GoogleHomePage - Typing into element: By.name: q value: Selenium WebDriver
+[INFO] 2025-12-05 02:38:56 [main] GoogleTest - Closing browser...
+[INFO] 2025-12-05 02:39:08 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 2025-12-05 02:39:08 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 02:39:08 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 02:39:08 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 02:39:10 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 02:39:15 [main] LoginPage - Typing into element: By.id: username value: wrongUser
+[INFO] 2025-12-05 02:39:15 [main] LoginPage - Typing into element: By.id: password value: wrongPass
+[INFO] 2025-12-05 02:39:15 [main] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 02:39:16 [main] LoginTest - Closing browser...
+[INFO] 2025-12-05 02:39:16 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 02:39:16 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 02:39:16 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 02:39:17 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 02:39:21 [main] LoginPage - Typing into element: By.id: username value: tomsmith
+[INFO] 2025-12-05 02:39:21 [main] LoginPage - Typing into element: By.id: password value: SuperSecretPassword!
+[INFO] 2025-12-05 02:39:21 [main] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 02:39:23 [main] LoginTest - Closing browser...
+[INFO] 2025-12-05 02:39:34 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 2025-12-05 02:39:37 [main] PostsApiTest - Received response: 201
+[INFO] 2025-12-05 02:39:38 [main] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 02:39:39 [main] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 02:39:39 [main] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 02:40:26 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\testng.xml
+
+[INFO] 2025-12-05 02:40:28 [main] PostsApiTest - Received response: 201
+[INFO] 2025-12-05 02:40:29 [main] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 02:40:29 [main] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 02:40:29 [main] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 02:40:29 [main] GoogleTest - Initializing browser...
+[INFO] 2025-12-05 02:40:29 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 02:40:29 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 02:40:31 [main] GoogleTest - Browser initialized.
+[INFO] 2025-12-05 02:40:31 [main] GoogleHomePage - Typing into element: By.name: q value: Selenium WebDriver
+[ERROR] 2025-12-05 02:40:55 [main] GoogleTest - Test FAILED: searchInGoogle
+[ERROR] 2025-12-05 02:40:55 [main] GoogleTest - Screenshot saved at: C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\screenshots\searchInGoogle_20251205_024055.png
+[INFO] 2025-12-05 02:40:55 [main] GoogleTest - Closing browser...
+[INFO] 2025-12-05 02:40:55 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 02:40:55 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 02:40:55 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 02:40:56 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 02:41:00 [main] LoginPage - Typing into element: By.id: username value: wrongUser
+[INFO] 2025-12-05 02:41:00 [main] LoginPage - Typing into element: By.id: password value: wrongPass
+[INFO] 2025-12-05 02:41:00 [main] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 02:41:01 [main] LoginTest - Closing browser...
+[INFO] 2025-12-05 02:41:01 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 02:41:01 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 02:41:01 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 02:41:02 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 02:41:06 [main] LoginPage - Typing into element: By.id: username value: tomsmith
+[INFO] 2025-12-05 02:41:07 [main] LoginPage - Typing into element: By.id: password value: SuperSecretPassword!
+[INFO] 2025-12-05 02:41:07 [main] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 02:41:08 [main] LoginTest - Closing browser...

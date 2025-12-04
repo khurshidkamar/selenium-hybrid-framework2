@@ -2,12 +2,12 @@
 
 <suite name="Selenium Hybrid Framework Suite">
 
-    <test name="UI Tests">
-        <classes>
-            <class name="com.selenium.tests.GoogleTest"/>
-            <!-- add other UI tests here later -->
-        </classes>
-    </test>
+<!--    <test name="UI Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.selenium.tests.GoogleTest"/>-->
+<!--            &lt;!&ndash; add other UI tests here later &ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
 
 <!--    <test name="API Tests">-->
 <!--        <classes>-->

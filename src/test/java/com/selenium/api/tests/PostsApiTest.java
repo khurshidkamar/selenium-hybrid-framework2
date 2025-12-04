@@ -4,10 +4,12 @@ import com.selenium.api.base.ApiTestBase;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
 public class PostsApiTest extends ApiTestBase {
-
+    protected Logger log = LoggerFactory.getLogger(this.getClass());
     @Test
     public void getSinglePost_shouldReturn200() {
         Response response = RestAssured
@@ -20,7 +22,8 @@ public class PostsApiTest extends ApiTestBase {
 
 //        System.out.println("Status code: " + response.getStatusCode());
 //        System.out.println("Body:'\n'" + response.getBody().asString());
-
+        log.info("Received response: " + response.getStatusCode());
+        log.debug("Body: " + response.getBody().asString());
         Assert.assertEquals(response.getStatusCode(), 200, "Status code is not 200");
 
         String title = response.jsonPath().getString("title");
@@ -49,7 +52,9 @@ public class PostsApiTest extends ApiTestBase {
 
 //        System.out.println("Status code: " + response.getStatusCode());
 //        System.out.println("Body:'\n'" + response.getBody().asString());
-//
+        log.info("Received response: " + response.getStatusCode());
+        log.debug("Body: " + response.getBody().asString());
+
         Assert.assertEquals(response.getStatusCode(), 201, "Status code is not 201");
 
         String title = response.jsonPath().getString("title");
@@ -78,7 +83,8 @@ public class PostsApiTest extends ApiTestBase {
                 .response();
 
         Assert.assertEquals(response.getStatusCode(), 200, "Status code is not 200");
-
+        log.info("Received response: " + response.getStatusCode());
+        log.debug("Body: " + response.getBody().asString());
         String title = response.jsonPath().getString("title");
         Assert.assertEquals(title, "Updated Title", "Title was not updated");
     }
@@ -92,7 +98,8 @@ public class PostsApiTest extends ApiTestBase {
                 .then()
                 .extract()
                 .response();
-
+        log.info("Received response: " + response.getStatusCode());
+        log.debug("Body: " + response.getBody().asString());
         int status = response.getStatusCode();
         Assert.assertTrue(status == 200 || status == 204,
                 "Expected 200 or 204 but got " + status);
