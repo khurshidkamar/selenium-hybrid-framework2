@@ -9,10 +9,15 @@
         </classes>
     </test>
 
+<!--    <test name="API Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.selenium.api.tests.UsersApiTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
     <test name="API Tests">
         <classes>
-            <class name="com.selenium.api.tests.UsersApiTest"/>
+            <class name="com.selenium.api.tests.PostsApiTest"/>
         </classes>
     </test>
-
 </suite>

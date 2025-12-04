@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class UsersApiTest extends ApiTestBase {
 
-    @Test(groups = "api")
+    @Test
     public void getSinglePost_shouldReturn200() {
         // This will call: https://jsonplaceholder.typicode.com/posts/1
         Response response = RestAssured
