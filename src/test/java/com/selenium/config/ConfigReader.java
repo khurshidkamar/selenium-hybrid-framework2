@@ -30,4 +30,10 @@ public class ConfigReader {
         }
         return value.trim();
     }
+    public static String getBaseUrl() {
+        return get("baseUrl");
+    }
+    public static String getApiBaseUrl() {
+        return get("apiBaseUrl");
+    }
 }

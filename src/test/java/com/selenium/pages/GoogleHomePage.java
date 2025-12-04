@@ -1,5 +1,6 @@
 package com.selenium.pages;
 
+import com.selenium.config.ConfigReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +14,7 @@ public class GoogleHomePage extends BasePage {
     }
 
     public void open() {
-        driver.get("https://www.google.com");
+        driver.get(ConfigReader.getBaseUrl());
         waitForVisibility(searchBox);
     }
 
@@ -21,7 +22,7 @@ public class GoogleHomePage extends BasePage {
         type(searchBox, query);
 
         // Small human-like pause helps avoid CAPTCHA
-        try { Thread.sleep(300); } catch (Exception ignored) {}
+        try { Thread.sleep(3000); } catch (Exception ignored) {}
 
         driver.findElement(searchBox).sendKeys(Keys.ENTER);
     }

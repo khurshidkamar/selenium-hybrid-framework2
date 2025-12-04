@@ -36,7 +36,7 @@
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>${selenium.version}</version>
+        <version>4.38.0</version>
     </dependency>
 
     <!-- WebDriverManager (auto driver management) -->
@@ -62,10 +62,11 @@
         <version>2.17.0</version>
     </dependency>
     <!-- Simple SLF4J logger implementation -->
+    <!-- Simple SLF4J Logger (removes StaticLoggerBinder warning) -->
     <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-simple</artifactId>
-        <version>2.0.17</version>
+        <version>1.7.36</version>
     </dependency>
 </dependencies>
 
