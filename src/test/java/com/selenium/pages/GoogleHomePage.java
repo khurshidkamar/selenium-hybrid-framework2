@@ -6,23 +6,23 @@ import org.openqa.selenium.WebDriver;
 
 public class GoogleHomePage extends BasePage {
 
-    // Locators
     private final By searchBox = By.name("q");
 
-    // Constructor: passes driver to BasePage
     public GoogleHomePage(WebDriver driver) {
         super(driver);
     }
 
-    // Open Google home page
     public void open() {
         driver.get("https://www.google.com");
+        waitForVisibility(searchBox);
     }
 
-    // Perform a search
     public void search(String query) {
         type(searchBox, query);
-        // Press ENTER to submit search
+
+        // Small human-like pause helps avoid CAPTCHA
+        try { Thread.sleep(300); } catch (Exception ignored) {}
+
         driver.findElement(searchBox).sendKeys(Keys.ENTER);
     }
 }
