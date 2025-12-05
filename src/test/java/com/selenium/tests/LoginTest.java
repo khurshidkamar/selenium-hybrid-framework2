@@ -20,10 +20,10 @@ public class LoginTest extends BaseTest {
 
         String message = secureAreaPage.getSuccessMessage();
 
-//        Assert.assertTrue(
-//                message.contains("You logged into a secure area!"),
-//                "Success message did not match. Actual: " + message
-//        );
+        Assert.assertTrue(
+                message.contains("You logged into a secure area!"),
+                "Success message did not match. Actual: " + message
+        );
 //        Assert.assertTrue(message.contains("WRONG TEXT"));
     }
 

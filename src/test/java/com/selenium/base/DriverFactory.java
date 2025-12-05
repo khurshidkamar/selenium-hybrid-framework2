@@ -16,25 +16,25 @@ public class DriverFactory {
             return; // already initialized for this thread
         }
 
-        String browser = ConfigReader.get("browser").toLowerCase();
+        String browser = ConfigReader.getBrowser();
 
         WebDriver webDriver;
 
-        switch (browser) {
-            case "chrome":
-                WebDriverManager.chromedriver().setup();
-                webDriver = new ChromeDriver();
+        switch (browser.toLowerCase()) {
+            case "edge":
+                WebDriverManager.edgedriver().avoidResolutionCache().setup();
+                webDriver = new EdgeDriver();
                 break;
+
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
                 webDriver = new FirefoxDriver();
                 break;
-            case "edge":
-                WebDriverManager.edgedriver().setup();
-                webDriver = new EdgeDriver();
-                break;
+
             default:
-                throw new RuntimeException("Unsupported browser: " + browser);
+                WebDriverManager.chromedriver().setup();
+                webDriver = new ChromeDriver();
+                break;
         }
 
         webDriver.manage().window().maximize();

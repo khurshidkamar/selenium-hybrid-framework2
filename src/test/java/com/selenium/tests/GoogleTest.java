@@ -18,7 +18,7 @@ public class GoogleTest extends BaseTest {
         googlePage.search("Selenium WebDriver");
 
         // Tiny wait just to be safe (later we'll use proper waits)
-        Thread.sleep(20000);
+        Thread.sleep(30000);
 
         String title = googlePage.getTitle();
 

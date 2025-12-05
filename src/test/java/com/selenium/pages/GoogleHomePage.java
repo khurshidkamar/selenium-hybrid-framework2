@@ -14,7 +14,7 @@ public class GoogleHomePage extends BasePage {
     }
 
     public void open() {
-        driver.get(ConfigReader.getBaseUrl());
+        driver.get(ConfigReader.getBaseUrl1());
         waitForVisibility(searchBox);
     }
 

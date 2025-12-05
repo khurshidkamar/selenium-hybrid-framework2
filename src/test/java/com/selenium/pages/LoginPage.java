@@ -1,11 +1,12 @@
 package com.selenium.pages;
 
+import com.selenium.config.ConfigReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends BasePage {
 
-    private final String URL = "https://the-internet.herokuapp.com/login";
+//    private final String URL = driver.get(ConfigReader.getBaseUrl());
 
     private final By usernameInput = By.id("username");
     private final By passwordInput = By.id("password");
@@ -17,7 +18,7 @@ public class LoginPage extends BasePage {
     }
 
     public void open() {
-        driver.get(URL);
+        driver.get(ConfigReader.getBaseUrl());
     }
 
     public void enterUsername(String username) {

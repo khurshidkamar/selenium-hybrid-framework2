@@ -3,6 +3,8 @@ package com.selenium.utils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,33 +15,34 @@ import java.util.Date;
 
 public class ScreenshotUtil {
 
-    public static String takeScreenshot(WebDriver driver, String testName) {
-        // Generate timestamp for unique filenames
-        String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+    private static final Logger log = LoggerFactory.getLogger(ScreenshotUtil.class);
 
-        // Create screenshot file
+    public static String takeScreenshot(WebDriver driver, String testName) {
+        String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss_SSS").format(new Date());
+        long threadId = Thread.currentThread().threadId();
+
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-        // Save inside /screenshots folder
-        String screenshotPath = "screenshots/" + testName + "_" + timestamp + ".png";
+        String screenshotPath = "screenshots/" + testName + "_T" + threadId + "_" + timestamp + ".png";
+        File dest = new File(screenshotPath);
 
-        File destination = new File(screenshotPath);
-        // Create the folder if missing, and check the result
-        File parentDir = destination.getParentFile();
+        // Ensure directory exists (and check result to avoid static-analysis warning)
+        File parentDir = dest.getParentFile();
         if (!parentDir.exists()) {
             boolean created = parentDir.mkdirs();
             if (!created) {
-                System.out.println("⚠ Failed to create screenshot directory: " + parentDir.getAbsolutePath());
+                log.warn("Could not create screenshot directory: {}", parentDir.getAbsolutePath());
             }
         }
 
         try {
-            Files.copy(src.toPath(), destination.toPath(), StandardCopyOption.REPLACE_EXISTING);
+            Files.copy(src.toPath(), dest.toPath(), StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
-            System.out.println("Failed to save screenshot: " + e.getMessage());
+            log.error("Failed to save screenshot", e);
             return null;
         }
 
-        return destination.getAbsolutePath();
+        log.info("Saved screenshot: {}", dest.getAbsolutePath());
+        return dest.getAbsolutePath();
     }
 }

@@ -64,3 +64,212 @@
 [INFO] 2025-12-05 02:41:07 [main] LoginPage - Typing into element: By.id: password value: SuperSecretPassword!
 [INFO] 2025-12-05 02:41:07 [main] LoginPage - Clicking element: By.cssSelector: button.radius
 [INFO] 2025-12-05 02:41:08 [main] LoginTest - Closing browser...
+[INFO] 2025-12-05 10:11:30 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\testng.xml
+
+[INFO] 2025-12-05 10:11:33 [main] PostsApiTest - Received response: 201
+[INFO] 2025-12-05 10:11:34 [main] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 10:11:34 [main] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 10:11:35 [main] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 10:11:35 [main] GoogleTest - Initializing browser...
+[INFO] 2025-12-05 10:11:36 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 10:11:36 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 10:11:38 [main] GoogleTest - Browser initialized.
+[INFO] 2025-12-05 10:11:39 [main] GoogleHomePage - Typing into element: By.name: q value: Selenium WebDriver
+[INFO] 2025-12-05 10:12:12 [main] GoogleTest - Closing browser...
+[INFO] 2025-12-05 10:12:12 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 10:12:12 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 10:12:12 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 10:12:13 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 10:12:41 [main] LoginPage - Typing into element: By.id: username value: wrongUser
+[INFO] 2025-12-05 10:12:42 [main] LoginPage - Typing into element: By.id: password value: wrongPass
+[INFO] 2025-12-05 10:12:42 [main] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 10:12:43 [main] LoginTest - Closing browser...
+[INFO] 2025-12-05 10:12:43 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 10:12:43 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 10:12:43 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 10:12:44 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 10:12:53 [main] LoginPage - Typing into element: By.id: username value: tomsmith
+[INFO] 2025-12-05 10:12:53 [main] LoginPage - Typing into element: By.id: password value: SuperSecretPassword!
+[INFO] 2025-12-05 10:12:53 [main] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 10:12:54 [main] LoginTest - Closing browser...
+[INFO] 2025-12-05 10:43:41 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\testng.xml
+
+[INFO] 2025-12-05 10:43:41 [TestNG-tests-1] LoginTest - Initializing browser...
+[INFO] 2025-12-05 10:43:42 [TestNG-tests-1] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 10:43:42 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 10:43:43 [TestNG-tests-1] LoginTest - Browser initialized.
+[INFO] 2025-12-05 10:43:44 [TestNG-tests-2] PostsApiTest - Received response: 201
+[INFO] 2025-12-05 10:43:45 [TestNG-tests-2] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 10:43:45 [TestNG-tests-2] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 10:43:46 [TestNG-tests-2] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 10:43:48 [TestNG-tests-1] LoginPage - Typing into element: By.id: username value: wrongUser
+[INFO] 2025-12-05 10:43:48 [TestNG-tests-1] LoginPage - Typing into element: By.id: password value: wrongPass
+[INFO] 2025-12-05 10:43:48 [TestNG-tests-1] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 10:43:49 [TestNG-tests-1] LoginTest - Closing browser...
+[INFO] 2025-12-05 10:43:49 [TestNG-tests-1] LoginTest - Initializing browser...
+[INFO] 2025-12-05 10:43:49 [TestNG-tests-1] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 10:43:49 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 10:43:50 [TestNG-tests-1] LoginTest - Browser initialized.
+[INFO] 2025-12-05 10:43:55 [TestNG-tests-1] LoginPage - Typing into element: By.id: username value: tomsmith
+[INFO] 2025-12-05 10:43:55 [TestNG-tests-1] LoginPage - Typing into element: By.id: password value: SuperSecretPassword!
+[INFO] 2025-12-05 10:43:56 [TestNG-tests-1] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 10:43:56 [TestNG-tests-1] LoginTest - Closing browser...
+[INFO] 2025-12-05 10:43:57 [TestNG-tests-1] GoogleTest - Initializing browser...
+[INFO] 2025-12-05 10:43:57 [TestNG-tests-1] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 10:43:57 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 10:43:58 [TestNG-tests-1] GoogleTest - Browser initialized.
+[INFO] 2025-12-05 10:43:58 [TestNG-tests-1] GoogleHomePage - Typing into element: By.name: q value: Selenium WebDriver
+[INFO] 2025-12-05 10:44:32 [TestNG-tests-1] GoogleTest - Closing browser...
+[INFO] 2025-12-05 11:31:58 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\testng.xml
+
+[INFO] 2025-12-05 11:31:58 [TestNG-tests-1] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:31:59 [TestNG-tests-1] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:31:59 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:32:01 [TestNG-tests-1] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:32:05 [TestNG-tests-1] LoginPage - Typing into element: By.id: username value: wrongUser
+[ERROR] 2025-12-05 11:32:16 [TestNG-tests-1] LoginTest - Test FAILED: invalidLogin_shouldShowErrorMessage
+[INFO] 2025-12-05 11:32:16 [TestNG-tests-1] GoogleTest - Initializing browser...
+[INFO] 2025-12-05 11:32:16 [TestNG-tests-1] GoogleTest - Browser initialized.
+[ERROR] 2025-12-05 11:32:16 [TestNG-tests-1] GoogleTest - Test FAILED: searchInGoogle
+[INFO] 2025-12-05 11:33:42 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 2025-12-05 11:33:42 [main] GoogleTest - Initializing browser...
+[INFO] 2025-12-05 11:33:42 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:33:42 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:33:44 [main] GoogleTest - Browser initialized.
+[INFO] 2025-12-05 11:33:45 [main] GoogleHomePage - Typing into element: By.name: q value: Selenium WebDriver
+[INFO] 2025-12-05 11:34:18 [main] GoogleTest - Closing browser...
+[INFO] 2025-12-05 11:34:32 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 2025-12-05 11:34:32 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:34:33 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:34:33 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:34:34 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:34:38 [main] LoginPage - Typing into element: By.id: username value: wrongUser
+[ERROR] 2025-12-05 11:34:44 [main] LoginTest - Test FAILED: invalidLogin_shouldShowErrorMessage
+[INFO] 2025-12-05 11:36:24 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 2025-12-05 11:36:24 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:36:24 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:36:24 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:36:26 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:36:30 [main] LoginPage - Typing into element: By.id: username value: wrongUser
+[ERROR] 2025-12-05 11:36:41 [main] LoginTest - Test FAILED: invalidLogin_shouldShowErrorMessage
+[INFO] 2025-12-05 11:36:41 [main] ScreenshotUtil - Saved screenshot: C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\screenshots\invalidLogin_shouldShowErrorMessage_T3_20251205_113641_032.png
+[ERROR] 2025-12-05 11:36:41 [main] LoginTest - Screenshot saved at: C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\screenshots\invalidLogin_shouldShowErrorMessage_T3_20251205_113641_032.png
+[INFO] 2025-12-05 11:36:41 [main] LoginTest - Closing browser...
+[INFO] 2025-12-05 11:36:41 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:36:41 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:36:41 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:36:42 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:36:47 [main] LoginPage - Typing into element: By.id: username value: tomsmith
+[ERROR] 2025-12-05 11:36:58 [main] LoginTest - Test FAILED: validLogin_shouldShowSuccessMessage
+[INFO] 2025-12-05 11:36:58 [main] ScreenshotUtil - Saved screenshot: C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\screenshots\validLogin_shouldShowSuccessMessage_T3_20251205_113658_016.png
+[ERROR] 2025-12-05 11:36:58 [main] LoginTest - Screenshot saved at: C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\screenshots\validLogin_shouldShowSuccessMessage_T3_20251205_113658_016.png
+[INFO] 2025-12-05 11:36:58 [main] LoginTest - Closing browser...
+[INFO] 2025-12-05 11:37:11 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 2025-12-05 11:37:11 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:37:12 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:37:12 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:37:13 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:37:17 [main] LoginPage - Typing into element: By.id: username value: wrongUser
+[ERROR] 2025-12-05 11:37:18 [main] LoginTest - Test FAILED: invalidLogin_shouldShowErrorMessage
+[INFO] 2025-12-05 11:43:55 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 2025-12-05 11:43:55 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:43:55 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:43:55 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:43:57 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:44:01 [main] LoginPage - Typing into element: By.id: username value: wrongUser
+[ERROR] 2025-12-05 11:44:12 [main] LoginTest - Test FAILED: invalidLogin_shouldShowErrorMessage
+[INFO] 2025-12-05 11:44:12 [main] ScreenshotUtil - Saved screenshot: C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\screenshots\invalidLogin_shouldShowErrorMessage_T3_20251205_114412_010.png
+[ERROR] 2025-12-05 11:44:12 [main] LoginTest - Screenshot saved at: C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\screenshots\invalidLogin_shouldShowErrorMessage_T3_20251205_114412_010.png
+[INFO] 2025-12-05 11:44:12 [main] LoginTest - Closing browser...
+[INFO] 2025-12-05 11:44:12 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:44:12 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:44:12 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:44:13 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:44:18 [main] LoginPage - Typing into element: By.id: username value: tomsmith
+[ERROR] 2025-12-05 11:44:28 [main] LoginTest - Test FAILED: validLogin_shouldShowSuccessMessage
+[INFO] 2025-12-05 11:44:28 [main] ScreenshotUtil - Saved screenshot: C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\screenshots\validLogin_shouldShowSuccessMessage_T3_20251205_114428_356.png
+[ERROR] 2025-12-05 11:44:28 [main] LoginTest - Screenshot saved at: C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\screenshots\validLogin_shouldShowSuccessMessage_T3_20251205_114428_356.png
+[INFO] 2025-12-05 11:44:28 [main] LoginTest - Closing browser...
+[INFO] 2025-12-05 11:44:48 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 2025-12-05 11:44:48 [main] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:44:48 [main] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:44:48 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:44:50 [main] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:44:55 [main] LoginPage - Typing into element: By.id: username value: wrongUser
+[ERROR] 2025-12-05 11:45:04 [main] LoginTest - Test FAILED: invalidLogin_shouldShowErrorMessage
+[INFO] 2025-12-05 11:48:35 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\testng.xml
+
+[INFO] 2025-12-05 11:48:35 [TestNG-tests-1] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:48:36 [TestNG-tests-1] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:48:36 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:48:37 [TestNG-tests-1] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:48:43 [TestNG-tests-1] LoginPage - Typing into element: By.id: username value: wrongUser
+[INFO] 2025-12-05 11:48:43 [TestNG-tests-1] LoginPage - Typing into element: By.id: password value: wrongPass
+[INFO] 2025-12-05 11:48:43 [TestNG-tests-1] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 11:48:44 [TestNG-tests-1] LoginTest - Closing browser...
+[INFO] 2025-12-05 11:48:44 [TestNG-tests-1] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:48:44 [TestNG-tests-1] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:48:44 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:48:45 [TestNG-tests-1] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:48:49 [TestNG-tests-1] LoginPage - Typing into element: By.id: username value: tomsmith
+[INFO] 2025-12-05 11:48:49 [TestNG-tests-1] LoginPage - Typing into element: By.id: password value: SuperSecretPassword!
+[INFO] 2025-12-05 11:48:50 [TestNG-tests-1] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 11:48:50 [TestNG-tests-1] LoginTest - Closing browser...
+[INFO] 2025-12-05 11:50:12 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\testng.xml
+
+[INFO] 2025-12-05 11:50:12 [TestNG-tests-1] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:50:13 [TestNG-tests-1] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:50:13 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:50:14 [TestNG-tests-1] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:50:19 [TestNG-tests-1] LoginPage - Typing into element: By.id: username value: wrongUser
+[INFO] 2025-12-05 11:50:19 [TestNG-tests-1] LoginPage - Typing into element: By.id: password value: wrongPass
+[INFO] 2025-12-05 11:50:19 [TestNG-tests-1] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 11:50:20 [TestNG-tests-1] LoginTest - Closing browser...
+[INFO] 2025-12-05 11:50:20 [TestNG-tests-1] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:50:20 [TestNG-tests-1] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:50:20 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:50:21 [TestNG-tests-1] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:50:26 [TestNG-tests-1] LoginPage - Typing into element: By.id: username value: tomsmith
+[INFO] 2025-12-05 11:50:26 [TestNG-tests-1] LoginPage - Typing into element: By.id: password value: SuperSecretPassword!
+[INFO] 2025-12-05 11:50:26 [TestNG-tests-1] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 11:50:27 [TestNG-tests-1] LoginTest - Closing browser...
+[INFO] 2025-12-05 11:53:14 [main] Utils - [TestNG] Running:
+  C:\Users\Khurshid\Desktop\Coding Projects\selenium-hybrid-framework2\testng.xml
+
+[INFO] 2025-12-05 11:53:14 [TestNG-tests-1] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:53:15 [TestNG-tests-1] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:53:15 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:53:16 [TestNG-tests-1] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:53:17 [TestNG-tests-2] PostsApiTest - Received response: 201
+[INFO] 2025-12-05 11:53:18 [TestNG-tests-2] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 11:53:19 [TestNG-tests-2] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 11:53:19 [TestNG-tests-2] PostsApiTest - Received response: 200
+[INFO] 2025-12-05 11:53:20 [TestNG-tests-1] LoginPage - Typing into element: By.id: username value: wrongUser
+[INFO] 2025-12-05 11:53:21 [TestNG-tests-1] LoginPage - Typing into element: By.id: password value: wrongPass
+[INFO] 2025-12-05 11:53:21 [TestNG-tests-1] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 11:53:22 [TestNG-tests-1] LoginTest - Closing browser...
+[INFO] 2025-12-05 11:53:22 [TestNG-tests-1] LoginTest - Initializing browser...
+[INFO] 2025-12-05 11:53:22 [TestNG-tests-1] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[INFO] 2025-12-05 11:53:22 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Khurshid\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[INFO] 2025-12-05 11:53:23 [TestNG-tests-1] LoginTest - Browser initialized.
+[INFO] 2025-12-05 11:53:28 [TestNG-tests-1] LoginPage - Typing into element: By.id: username value: tomsmith
+[INFO] 2025-12-05 11:53:28 [TestNG-tests-1] LoginPage - Typing into element: By.id: password value: SuperSecretPassword!
+[INFO] 2025-12-05 11:53:29 [TestNG-tests-1] LoginPage - Clicking element: By.cssSelector: button.radius
+[INFO] 2025-12-05 11:53:29 [TestNG-tests-1] LoginTest - Closing browser...
